@@ -27,7 +27,18 @@ Multiplying by 255 gives a number between 0 and 255 (max value for RGB colors).
 
 7. Math.round(): rounds it to a whole number (0–255).
 
-## Game 2: Palindrome Checker:
+## 🔍Game 2: Palindrome Checker:
 Check whether a given string is equal when reversed (original string = reversed string). If not, then it's not palindrome.
+
+###🗝️Key Learnings:
+1. 
+
+
+
+
+
+
+## 💪Game 3: Random Quote Generator:
+Generate motivational quote with just a click.
 
 ###🗝️Key Learnings:
