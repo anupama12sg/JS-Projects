@@ -1,12 +1,12 @@
 # 🎮Mini Games 
 
-## 🎨Game 1: Colour Flipper 
-Change of background colour with just a click of a button.
-
 ### ⚙️Tech Stack: 
 1. HTML
 2. CSS
 3. JavaScript
+
+## 🎨Game 1: Colour Flipper 
+Change of background colour with just a click of a button.
 
 ### 🗝️Key Learnings:
 1. id: unique identifer for a thing
