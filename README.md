@@ -31,7 +31,14 @@ Multiplying by 255 gives a number between 0 and 255 (max value for RGB colors).
 Check whether a given string is equal when reversed (original string = reversed string). If not, then it's not palindrome.
 
 ###🗝️Key Learnings:
-1. 
+1. type="text" : a single-line text box where the user can type.
+2. placeholder="Type something" : greyed-out text inside the input box as a hint for the user about what to type.
+3. document.getElementById("input")
+4. str.split("") : converts the string into array of characters.
+5. .reverse() : reverses the string.
+6. .join("") : joins back the reversed string.
+7. ===  : strictly equal to
+8. input.value = "" : clears the input box after checking.
 
 
 
