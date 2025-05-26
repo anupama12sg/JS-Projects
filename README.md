@@ -47,12 +47,13 @@ Check whether a given string is equal when reversed (original string = reversed 
 
 8. input.value = "" : clears the input box after checking.
 
-
-
-
-
-
 ## 💪Game 3: Random Quote Generator:
 Generate motivational quote with just a click.
+
+###🗝️Key Learnings:
+
+
+## ⌚Game 4: Stop Watch:
+
 
 ###🗝️Key Learnings:
