@@ -30,7 +30,7 @@ Multiplying by 255 gives a number between 0 and 255 (max value for RGB colors).
 ## 🔍Game 2: Palindrome Checker:
 Check whether a given string is equal when reversed (original string = reversed string). If not, then it's not palindrome.
 
-###🗝️Key Learnings:
+### 🗝️Key Learnings:
 1. type="text" : a single-line text box where the user can type.
 
 2. placeholder="Type something" : greyed-out text inside the input box as a hint for the user about what to type.
@@ -50,10 +50,10 @@ Check whether a given string is equal when reversed (original string = reversed 
 ## 💪Game 3: Random Quote Generator:
 Generate motivational quote with just a click.
 
-###🗝️Key Learnings:
+### 🗝️Key Learnings:
 
 
 ## ⌚Game 4: Stop Watch:
 
 
-###🗝️Key Learnings:
+### 🗝️Key Learnings:
