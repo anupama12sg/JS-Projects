@@ -19,7 +19,7 @@ function timer() {
 }
 
 function startClock() {
-    if (interval) resetClock()
+    if (interval) stopClock()
     interval = setInterval(timer, 1000)
 }
 
