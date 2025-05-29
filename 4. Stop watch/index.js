@@ -8,9 +8,9 @@ function padStart(value) {
 
 
 function setTime() {
-    const minutes = Math.floor(secondsElapsed/60)
+    const minutes = Math.floor(secondsElapsed / 60)
     const seconds = (secondsElapsed % 60)
-    time.innerHTML = `${padStart(minutes)}:{padStart(seconds)}`;
+    time.innerHTML = `${padStart(minutes)}:${padStart(seconds)}`;
 }
 
 function timer() {
@@ -19,13 +19,16 @@ function timer() {
 }
 
 function startClock() {
+    if (interval) resetClock()
     interval = setInterval(timer, 1000)
 }
 
 function stopClock() {
-
+    clearInterval(interval)
 }
 
 function resetClock() {
-
+    stopClock()
+    secondsElapsed = 0;
+    setTime()
 }
