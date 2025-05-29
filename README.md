@@ -50,10 +50,10 @@ Check whether a given string is equal when reversed (original string = reversed 
 ## 💪Game 3: Random Quote Generator:
 Generate motivational quote with just a click.
 
-### 🗝️Key Learnings:
-
-
 ## ⌚Game 4: Stop Watch:
 
+### 🗝️Key Learnings:
+
+## 📃Game 5: To Do List:
 
 ### 🗝️Key Learnings:
