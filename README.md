@@ -1,6 +1,6 @@
 # 🎮Mini Games 
 
-### ⚙️Tech Stack: 
+### ⚙️Tech Stack
 1. HTML
 2. CSS
 3. JavaScript
@@ -47,7 +47,7 @@ Check whether a given string is equal when reversed (original string = reversed 
 
 8. input.value = "" : clears the input box after checking.
 
-## 💪Game 3: Random Quote Generator:
+## 💪Game 3: Random Quote Generator
 Generate motivational quote with just a click.
 
 ## ⌚Game 4: Stop Watch
