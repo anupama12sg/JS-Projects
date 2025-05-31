@@ -1,6 +1,7 @@
-let items = ["hello", "1234"];
+let items = [];
 
 const itemsDiv = document.getElementById("items")
+const input = document.getElementById("itemInput")
 
 function renderItems() {
     itemsDiv.innerHTML = null;
@@ -24,7 +25,6 @@ function renderItems() {
         itemsDiv.appendChild(container)
     }
 }
-renderItems()
 
 function loadItems() {
 
@@ -35,10 +35,17 @@ function saveItems() {
 }
 
 function addItem() {
-
+    const value = input.value;
+    if (!value) {
+        alert("You cannot add an empty item")
+        return
+    }
+    items.push(value)
+    renderItems()
+    input.value = ""
 }
 
 function removeItem(idx) {
     items.splice(idx, 1)
-    renderItems()
+
 }
