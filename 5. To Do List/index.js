@@ -1,11 +1,8 @@
 let items = [];
-const storageKey = "items";
 
-document.addEventListener("DOMContentLoaded", () => {
-    const itemsDiv = document.getElementById("items")
-    const input = document.getElementById("itemInput")
-    loadItems();
-});
+const itemsDiv = document.getElementById("items")
+const input = document.getElementById("itemInput")
+const storageKey = "items";
 
 function renderItems() {
     itemsDiv.innerHTML = null;
