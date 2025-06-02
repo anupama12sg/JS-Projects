@@ -50,6 +50,15 @@ Check whether a given string is equal when reversed (original string = reversed 
 ## 💪Game 3: Random Quote Generator
 Generate motivational quote with just a click.
 
+### 🗝️Key Learnings
+1. const quotes = [...]: A list (array) of motivational quotes.
+
+2. const usedIndexes = new Set(): A set to remember which quotes have already been shown. Ensures no repeats until all the quotes have been used.
+
+3. if (usedIndexes.size >= quotes.length): Checks if all quotes have been used.
+
+4. const randomIdx = Math.floor(Math.random() * quotes.length): Keeps picking a random quote index until it finds one not already shown.
+
 ## ⌚Game 4: Stop Watch
 A stopwatch is a tool that counts & displays elapsed time in seconds & minutes, starting, stopping & resetting as needed.
 
