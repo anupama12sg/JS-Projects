@@ -51,8 +51,25 @@ Check whether a given string is equal when reversed (original string = reversed 
 Generate motivational quote with just a click.
 
 ## ⌚Game 4: Stop Watch
+A stopwatch is a tool that counts & displays elapsed time in seconds & minutes, starting, stopping & resetting as needed.
 
 ### 🗝️Key Learnings
+1. Variables
+   a. secondsElapsed: total seconds passed.
+   b. interval: stores the timer's setInterval reference.
+
+2. padStart(value): Converts numbers like 5 into "05" for cleaner display. Ensures every number shown has 2 digits (eg: 09, 07 etc.)
+
+3. setTime(): Converts secondsElpased into minutes and seconds. 
+Eg: 180 seconds = 03:00
+
+4. timer(): Called every second via setInterval.
+
+5. startClock(): Starts the clock.
+
+6. stopClock(): Stops the clock.
+
+7. resetClock(): Stops the timer, sets secondsElapsed back to 0 & updates the display to 00:00.
 
 ## 📃Game 5: To Do List
 
