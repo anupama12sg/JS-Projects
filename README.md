@@ -72,5 +72,11 @@ Eg: 180 seconds = 03:00
 7. resetClock(): Stops the timer, sets secondsElapsed back to 0 & updates the display to 00:00.
 
 ## 📃Game 5: To Do List
+Organize and track tasks.
 
 ### 🗝️Key Learnings
+1. storageKey: the kry used to save the list in the browser's localStorage.
+
+2. itemsDiv.innerHTML = null; Clears the current list. For each item, creates a small "box" with the item text and a "Delete" button.
+
+3. document.addEventListener("DOMContentLoaded", loadItems); This ensures that app loads the saved list as soon as the page finishes loading.
